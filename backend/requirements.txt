@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pdfplumber
+requests
+pydantic
+python-multipart

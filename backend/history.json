@@ -1,0 +1,57 @@
+[
+  {
+    "id": "67123c02-df55-45d9-92dc-8ebde1d598c3",
+    "problem": "Integrating Machine Learning (ML) into the Linux kernel to enable efficient and self-evolving configuration.",
+    "methodology": "Development of a Linux kernel ML library to facilitate performance-optimized, self-evolving configurations without introducing complex or inefficient trade-offs.",
+    "contributions": "Proposes a novel ML infrastructure within the Linux kernel that can leverage FPUs in kernel space, enabling efficient inference and model deployment.",
+    "limitations": "Introducing ML models requires floating-point operations in kernel space, which may impact performance; the approach is still in early stages.",
+    "gaps": "Limited direct use of ML models in kernel space; insufficient standardized frameworks for seamless integration.",
+    "future": "Exploring efficient kernel-space ML model deployment, optimizing inference, and developing robust interfaces for kernel development.",
+    "novelty_score": 8,
+    "impact_level": "High",
+    "domain": "Operating Systems",
+    "filename": "Research2.pdf",
+    "timestamp": "2026-03-06 21:19:16"
+  },
+  {
+    "id": "1bdc965e-ac92-40a0-94cd-3e9898fe3945",
+    "problem": "Understanding the Fundamentals of Operating Systems in Academic Context",
+    "methodology": "Theoretical explanations and structured analysis using academic resources, including textbooks and case studies.",
+    "contributions": "Enhances foundational knowledge and practical application for students in CS courses.",
+    "limitations": "Limited emphasis on real-world implementation challenges.",
+    "gaps": "Underrepresentation of emerging OS technologies (e.g., cloud-native, AI-integrated systems).",
+    "future": "Integration with modern computing paradigms and cybersecurity considerations.",
+    "novelty_score": 8,
+    "impact_level": "High",
+    "domain": "Computer Science",
+    "filename": "OS Assignment_MID-1_2026 (1).pdf",
+    "timestamp": "2026-03-06 21:14:21"
+  },
+  {
+    "id": "6051e072-e379-4cdf-83e3-0ddb3d288780",
+    "problem": "The complexity of Linux kernel configuration and optimization due to its massive codebase and subsystems, and the challenges of integrating Machine Learning (ML) models into the kernel space, particularly the lack of direct use of floating-point operations (FPU) and potential performance degradation.",
+    "methodology": "Proposed ML infrastructure architecture in Linux kernel, including a kernel-space ML model proxy and a user-space ML model thread, implemented as a Proof of Concept (PoC) project to demonstrate feasibility and design interaction interfaces.",
+    "contributions": "Introduction of a kernel ML library to enable ML models in Linux kernel, addressing configuration complexity and optimization challenges, and providing a framework for ML integration in kernel space.",
+    "limitations": "Lack of direct use of floating-point operations (FPU) in kernel space, potential performance degradation during training and inference phases, and challenges in developer trust and understanding of automated decisions.",
+    "gaps": "Need for infrastructure to adopt ML models in Linux kernel, methods to handle FPU limitations, and strategies to mitigate performance impacts during ML model training and inference.",
+    "future": "Development of optimized ML models for kernel space, exploration of alternative computation methods to FPU, and enhancement of real-time ML capabilities in Linux kernel.",
+    "novelty_score": 7,
+    "impact_level": "High",
+    "domain": "Operating Systems, Machine Learning",
+    "filename": "Research2.pdf",
+    "timestamp": "2026-03-06 21:04:18"
+  },
+  {
+    "problem": "The Linux kernel's increasing complexity and configuration options make efficient configuration difficult. Integrating Machine Learning (ML) to provide self-evolving capabilities faces challenges due to the lack of direct floating-point operations (FPU) usage in kernel space and potential performance degradation during both training and inference phases.",
+    "methodology": "The paper proposes an ML infrastructure architecture within the Linux kernel and implements it as a Proof of Concept (PoC) project. This PoC focuses on demonstrating the feasibility of the approach and designing the interface for interaction between a kernel-space ML model proxy and a user-space ML model thread.",
+    "contributions": "The primary contribution is the proposal of an ML infrastructure architecture for the Linux kernel and a PoC implementation to demonstrate its feasibility. The work also designs an interface for interaction between kernel-space and user-space components.",
+    "limitations": "The PoC implementation is likely limited in scope and functionality. The paper acknowledges the potential for performance degradation due to FPU usage and the training/inference phases within the kernel. The work doesn't delve into specific ML algorithms suitable for kernel optimization.",
+    "gaps": "The paper identifies gaps in understanding how to effectively utilize ML approaches within the Linux kernel, specifically regarding the required infrastructure and addressing performance concerns related to FPU usage and training/inference.",
+    "future": "Future research should focus on developing efficient ML algorithms suitable for kernel-level optimization, addressing the performance overhead of FPU operations, and exploring techniques for training ML models without significantly impacting kernel performance. Further investigation into trust and understanding of automated decisions made by ML models within the kernel is also needed.",
+    "novelty_score": 7,
+    "impact_level": "Medium",
+    "domain": "Operating Systems, Machine Learning",
+    "filename": "Research2.pdf",
+    "timestamp": "2026-03-06 20:45:20"
+  }
+]
